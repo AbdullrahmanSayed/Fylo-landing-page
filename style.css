@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    padding: 60px 50px;
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px 50px;
+}
+.header-links
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-links a
+{
+    padding-left: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+    text-align: center;
+}
+.title-box
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.title-box .title-h2
+{
+    font-size: 70px;
+    font-weight:700;
+    color:  hsl(243, 87%, 12%);
+}
+.title-box .title-p
+{
+    font-size: 32px;
+    font-weight:700;
+    color: hsl(0, 0%, 75%);
+}
+
+.email-box
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 100%;
+}
+.email-box input
+{
+    width: 280px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.email-box a
+{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    width: 150px;
+    transition: 0.7s ease;
+    background-color: hsl(224, 93%, 58%) ;
+}
+.email-box a:hover
+{
+    transform: scale(1.1);
+    background-color:hsla(224, 93%, 58%, 0.689) ;
+}
+.main-img img
+{
+    width: 100%;
+}
+.prductive
+{
+    display: flex;
+    margin-top: 300px;
+    padding: 60px 50px;
+}
+.prductive
+{
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.prductive .title-box
+{
+    padding-top: 50px;
+    margin-right: 40px;
+}
+.prductive .title-h2
+{
+    font-size: 60px;
+    padding-bottom: 25px;
+}
+.prductive .title-p
+{
+    font-size: 20px;
+    
+    font-weight: 700;
+    color:hsla(243, 87%, 12%, 0.689);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.prductive .title a
+{
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 3px;
+    text-align: center;
+    cursor: pointer;
+    color: hsl(243, 87%, 12%); /* Default text color */
+    transition: color 0.7s ease; /* Smooth transition for color change */
+}
+
+.prductive .title  i
+{
+    display: inline-block;
+    border-radius: 25px;
+    color: #000;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    font-size: 10px;
+    transition: 0.7s ease;
+}
+a:hover .fa-arrow-right
+{
+    color: #fff;
+    background-color: hsl(170, 100%, 65%);/* Icon color on hover */
+}
+.prductive .title a:hover
+{
+    transform: scale(1.04);
+    border-bottom:  hsl(170, 100%, 65%) solid 2px;
+    color: hsl(170, 100%, 65%); /* Text color on hover */
+}
+.review-box
+{
+    margin-top: 30px;
+    width: 400px;
+    padding: 34px;
+    padding-left: 33px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.1);
+}
+.review-box:hover
+{
+    transform: scale(1.14);
+}
+.reviwer
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+.reviwer img
+{
+    border-radius: 50%;
+    width: 13%;
+}
+.reviwer-title
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+.reviwer-title h2
+{
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+.reviwer-title p
+{
+    font-size: 13px;
+}
+.contact
+{
+    display: flex;
+    width: 100%;
+    padding: 60px 50px;
+    align-items: center;
+    overflow: hidden;
+    background-color:hsl(238, 22%, 44%) ;
+}
+
+.contact-info
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.contact-info h2
+{
+    color: hsl(240, 75%, 98%);
+}
+.contact-info p
+{
+    margin-top: 30px;
+    color:hsl(0, 0%, 75%);
+}
+.contact .email-box
+{
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.contact .email-box a
+{
+    display: inline-block;
+    margin-top: 29px;
+    margin-right: 110px;
+    width: 170px;
+    padding: 13px;
+}
+.contact .email-box a:hover
+{
+    color: #fff;
+    background-color:hsla(239, 43%, 69%, 0.769) ;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+    background-color:hsl(243, 87%, 12%) ;
+}
+.logo-in
+{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.logo-in img
+{
+    
+    
+        width: 120px;
+    padding-bottom: 10px;
+}
+.logo-in img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(10000deg) brightness(1000%) contrast(100%);
+}
+.logo-in .icon
+{
+    padding-top: 20px;
+}
+.logo-in .icon i
+{
+    padding-right: 10px;
+}
+.contact-link
+{
+    display: flex;
+    flex-direction: row;
+}
+.contact-link a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    transition: 0.5s;
+}
+.contact-link a:hover
+{
+    color:  hsl(224, 93%, 58%);
+}
+
+.contact-link .link
+{
+    display: flex;
+    flex-direction: column;
+        margin-right: 95px;
+    padding-left: 62px;
+}
+.social-link
+{
+    color: #fff;
+    display: flex;
+    
+}
+.social-link a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.social-link a:hover
+{
+    color:hsl(224, 93%, 58%) ;
+}
+.social-link i
+{
+    margin-left: 13px;
+    display: inline-block;
+    height: 27px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 15px;
+    border: 1px solid #fff;
+}
+@media(max-width:1024px)
+{
+    .main
+    {display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+    }
+    .title-box .title-h2
+    {
+        font-size: 45px;
+        margin-top: 68px;
+    }
+    .title-box .title-p
+    {
+        font-size: 28px;
+        margin-top: 43px;
+    }
+    .email-box
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .email-box a
+    {
+        width: 280px;
+        height: 40px;
+        border-radius: 3px;
+        margin-left:0 ;
+        margin-top: 20px;
+    }
+    .prductive
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin-top: 800px;
+
+    }
+    .prductive .title-p
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 28px;
+    }
+    .title-box .title
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .review-box
+    {
+        display:flex ;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .reviwer-title
+    {
+        text-align: start;
+    }
+    .contact
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .contact-info
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .contact .email-box
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact .email-box a
+    {
+        text-align: center;
+        width: 280px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo-in
+    {
+        margin-left: 16px;
+    }
+    .contact-link
+    {
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .social-link a
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .contact-link .link {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        padding-left: 0;
+    }
+}
+@media(min-width:600px) and (max-width:1024px)
+{
+    footer
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
